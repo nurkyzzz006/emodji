@@ -81,7 +81,7 @@ h1 {
     line-height: 40px;
     color: rgb(242, 253, 254);
     font-weight: 600;
-    font-size: clamp(0.938rem, 0.869rem + 0.34vw, 1.125rem);
+    font-size: clampclamp(1.25rem, 1.136rem + 0.57vw, 1.563rem);
   }
 }
 
