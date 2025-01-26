@@ -62,23 +62,25 @@ h1 {
   padding-bottom: 6px;
 }
 .list {
-  width: 160px;
-  height: 120px;
+  width: 190px;
+  height: 200px;
   background: rgb(34, 61, 61);
-  display: none;
-  gap: 10px;
   padding: 10px;
   border-radius: 10px;
-  max-width: 100px;
+  max-width: 200px;
   position: absolute;
   top: 15px;
   right: -30px;
+  display: none;
 
   a {
+    display: flex;
+    justify-content: center;
     background: none;
+    line-height: 40px;
     color: rgb(242, 253, 254);
     font-weight: 600;
-    font-size: clamp(0.625rem, 0.443rem + 0.91vw, 1.125rem);
+    font-size: clamp(0.938rem, 0.869rem + 0.34vw, 1.125rem);
   }
 }
 
@@ -86,7 +88,7 @@ h1 {
   background: none;
   display: flex;
   justify-content: end;
-  font-size: 13px;
+  font-size: 20px;
   ion-icon {
     background: none;
   }

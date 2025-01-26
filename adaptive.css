@@ -1,6 +1,7 @@
 @media (max-width: 500px) {
   .burger {
     display: block;
+    font-size: 30px;
   }
   .list {
     margin-left: auto;
