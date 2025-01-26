@@ -5,6 +5,8 @@
   text-decoration: none;
   color: white;
   font-family: Poppins, sans-serif;
+}
+body {
   background: #000;
 }
 .container {
@@ -29,8 +31,8 @@
 
 #header {
   background: #000;
-  position: sticky;
-  top: 0;
+  /* position: sticky;
+  top: 0; */
   padding-block: 20px;
 }
 .header {
@@ -47,7 +49,7 @@
   }
 }
 h1 {
-  font-size:clamp(1.563rem, 1.335rem + 1.14vw, 2.188rem);
+  font-size: clamp(1.563rem, 1.335rem + 1.14vw, 2.188rem);
   animation: zag 1s ease-in-out alternate;
 }
 @keyframes zag {
@@ -95,5 +97,39 @@ h1 {
   font-size: 25px;
   ion-icon {
     background: none;
+  }
+}
+
+#torolgon {
+  padding-block: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.torolgon {
+  display: flex;
+  justify-content: center;
+}
+.box {
+  width: 400px;
+  height: 450px;
+  background: rgb(24, 69, 65);
+  padding: 20px;
+  border-radius: 20px;
+  -webkit-box-shadow: 29px 31px 54px -21px rgba(10, 210, 255, 1);
+  -moz-box-shadow: 29px 31px 54px -21px rgba(10, 210, 255, 1);
+  box-shadow: 29px 31px 54px -21px rgba(10, 210, 255, 1);
+}
+.box img {
+  width: 100%;
+  border-radius: 20px;
+}
+.text {
+  h2 {
+    font-size: 20px;
+    text-align: center;
+    span {
+      color: aqua;
+    }
   }
 }
