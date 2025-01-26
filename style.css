@@ -1,0 +1,61 @@
+body {
+  width: 100%;
+  padding-block: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.emod {
+  width: 400px;
+  height: 400px;
+  background: yellow;
+  border-radius: 50%;
+  position: relative;
+}
+.eyes {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+.eye {
+  width: 70px;
+  height: 10px;
+  background: #000;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.circle {
+  width: 30px;
+  height: 50px;
+  background: rgb(252, 253, 253);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.toch {
+  width: 20px;
+  height: 20px;
+  background: #000;
+  border-radius: 50%;
+}
+.ooz {
+  width: 250px;
+  height: 20px;
+  background: #000;
+  position: absolute;
+  top: 280px;
+  left: 70px;
+  border-top-left-radius: 100%;
+  border-top-right-radius: 100%;
+}
+.murun{
+  width: 20px;
+  height: 50px;
+  background: #000;
+  position: absolute;
+  left: 200px;
+}
