@@ -1,0 +1,9 @@
+@media (max-width: 500px) {
+  .burger {
+    display: block;
+  }
+  .list {
+    margin-left: auto;
+    margin-right: 45px;
+  }
+}

@@ -1,61 +1,93 @@
-body {
-  width: 100%;
-  padding-block: 100px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: white;
+  font-family: Poppins, sans-serif;
+  background: #000;
 }
-.emod {
-  width: 400px;
-  height: 400px;
-  background: yellow;
-  border-radius: 50%;
+.container {
+  width: 100%;
+  max-width: 1280px;
+  margin-inline: auto;
+  padding-inline: 30px;
+}
+@media (max-width: 500px) {
+  .container {
+    padding-inline: 20px;
+  }
+  .header-nav a {
+    display: none;
+  }
+}
+.burger {
+  display: none;
+  color: white;
   position: relative;
 }
-.eyes {
+
+#header {
+  background: #000;
+  position: sticky;
+  top: 0;
+  padding-block: 20px;
+}
+.header {
   display: flex;
   align-items: center;
-  justify-content: space-around;
-  margin-top: 100px;
+  justify-content: space-between;
+  .header-nav {
+    display: flex;
+    gap: 40px;
+    a {
+      font-size: clamp(0.75rem, 0.614rem + 0.68vw, 1.125rem);
+      transition: 0.8s;
+    }
+  }
 }
-.eye {
-  width: 70px;
-  height: 10px;
-  background: #000;
-  border-radius: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+h1 {
+  font-size: clamp(0.938rem, 0.71rem + 1.14vw, 1.563rem);
+  animation: zag 1s ease-in-out alternate;
 }
-.circle {
-  width: 30px;
-  height: 50px;
-  background: rgb(252, 253, 253);
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+@keyframes zag {
+  0% {
+    margin-left: -100px;
+  }
 }
-.toch {
-  width: 20px;
-  height: 20px;
-  background: #000;
-  border-radius: 50%;
+.header-nav a:hover {
+  transform: scale(1.1);
+  color: aqua;
+  border-bottom: 1px solid aqua;
+  padding-bottom: 6px;
 }
-.ooz {
-  width: 250px;
-  height: 20px;
-  background: #000;
+.list {
+  width: 160px;
+  height: 120px;
+  background: rgb(34, 61, 61);
+  display: none;
+  gap: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  max-width: 100px;
   position: absolute;
-  top: 280px;
-  left: 70px;
-  border-top-left-radius: 100%;
-  border-top-right-radius: 100%;
+  top: 15px;
+  right: -30px;
+
+  a {
+    background: none;
+    color: rgb(242, 253, 254);
+    font-weight: 600;
+    font-size: clamp(0.625rem, 0.443rem + 0.91vw, 1.125rem);
+  }
 }
-.murun{
-  width: 20px;
-  height: 50px;
-  background: #000;
-  position: absolute;
-  left: 200px;
+
+.x {
+  background: none;
+  display: flex;
+  justify-content: end;
+  font-size: 13px;
+  ion-icon {
+    background: none;
+  }
 }
