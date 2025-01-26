@@ -47,7 +47,7 @@
   }
 }
 h1 {
-  font-size: clamp(1.125rem, 0.966rem + 0.8vw, 1.563rem);
+  font-size:clamp(1.563rem, 1.335rem + 1.14vw, 2.188rem);
   animation: zag 1s ease-in-out alternate;
 }
 @keyframes zag {
@@ -92,7 +92,7 @@ h1 {
   background: none;
   display: flex;
   justify-content: end;
-  font-size: 20px;
+  font-size: 30px;
   ion-icon {
     background: none;
   }
