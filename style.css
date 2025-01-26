@@ -47,7 +47,7 @@
   }
 }
 h1 {
-  font-size: clamp(0.938rem, 0.71rem + 1.14vw, 1.563rem);
+  font-size: clamp(1.125rem, 0.966rem + 0.8vw, 1.563rem);
   animation: zag 1s ease-in-out alternate;
 }
 @keyframes zag {
@@ -62,7 +62,7 @@ h1 {
   padding-bottom: 6px;
 }
 .list {
-  width: 190px;
+  width: 150px;
   height: 200px;
   background: rgb(34, 61, 61);
   padding: 10px;
