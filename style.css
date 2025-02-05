@@ -108,7 +108,15 @@ h1 {
 }
 .torolgon {
   display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
+
+  p {
+    font-size: 20px;
+    margin-top: 50px;
+    text-align: center;
+  }
 }
 .box {
   width: 400px;
@@ -123,8 +131,12 @@ h1 {
 .box img {
   width: 100%;
   border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .text {
+  max-width: 800px;
   h2 {
     font-size: 20px;
     text-align: center;
@@ -132,4 +144,75 @@ h1 {
       color: aqua;
     }
   }
+}
+#hobbi {
+  padding-block: 30px;
+}
+.hobbi {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  h1 {
+    margin-bottom: 30px;
+  }
+  p {
+    margin-top: 20px;
+  }
+}
+marquee {
+  display: flex;
+  gap: 20px;
+  img {
+    width: 60%;
+    margin-left: 20px;
+    border-radius: 20px;
+  }
+}
+.d_img {
+  display: flex;
+
+  gap: 10px;
+  position: relative;
+  img {
+    width: 60%;
+    border-radius: 20px;
+  }
+  .one {
+    margin-left: 30px;
+  }
+}
+.dos {
+  h1 {
+    padding-block: 20px;
+  }
+  p {
+    padding-top: 230px;
+  }
+}
+.two img {
+  position: absolute;
+  bottom: -200px;
+  left: 160px;
+}
+
+#footer {
+  padding-block: 20px;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+
+  align-items: center;
+  gap: 20px;
+  a {
+    font-size: 26px;
+  }
+}
+.icon {
+  display: flex;
+  gap: 20px;
+}
+hr{
+  margin-top: 20px;
 }
